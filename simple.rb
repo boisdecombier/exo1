@@ -13,9 +13,15 @@ end
 get '/produits' do	
 	erb :produits
 end 
+
 get '/recettes' do	
 	erb :recettes
-end 
+end
+
 get '/stage' do	
 	erb :stage
+end 
+
+get '/contact' do	
+	erb :contact
 end 
